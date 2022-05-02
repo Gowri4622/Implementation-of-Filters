@@ -7,10 +7,18 @@ Anaconda - Python 3.7
 
 ## Algorithm:
 ### Step1
+Import the necessary modules.
 </br>
 </br> 
 
 ### Step2
+For performing smoothing operation on a image.
+
+* Average filter
+```
+avg_kernel=np.ones((13,13),np.float32)/169
+average_filter_image=cv2.filter2D(image,-1,avg_kernel)
+```
 </br>
 </br> 
 
@@ -102,7 +110,7 @@ ii) Using Weighted Averaging Filter
 </br>
 </br>
 
-iii) Using Weighted Averaging Filter
+iii) Using Gaussian Filter
 </br>
 </br>
 </br>
