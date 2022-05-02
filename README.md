@@ -166,9 +166,9 @@ plt.show()
 </br>
 
 i) Using Averaging Filter
+</br>
+</br>
 ![Screenshot_628](https://user-images.githubusercontent.com/75235455/166292663-56adc236-d604-4284-9930-c9f03f575f95.png)
-</br>
-</br>
 </br>
 </br>
 </br>
